@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-demo
+  namespace: node-app
+data:
+  POSTGRES_USER: "postgres"
+  POSTGRES_DB: "postgres_db"
